@@ -436,12 +436,13 @@ page {
 
 .top-line .logo {
     width: 138rpx;
-    height: 40rpx;
-    background-image: url(http://img02.camel.com.cn/image/logo138x40_1.png);
+    height: 80rpx;
+    background-image: url(http://img.hb.aicdn.com/658a12136d247ac0ea9651c6e1445f8daf371f311a943-ZH6mov_fw658);
     display: inline-block;
     margin-right: 20rpx;
     background-size: cover;
     background-position: center;
+    
 }
 
 .m-navs {
@@ -1199,6 +1200,7 @@ m-indexHd .inner {
 .m-uc-top {
     height: 250rpx;
     background: url(http://img02.camel.com.cn/image/m-uc-top-bg.jpg) no-repeat top center;
+    /* 背静 */
     background-size: 100%;
 }
 

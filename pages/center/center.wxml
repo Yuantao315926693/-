@@ -2,13 +2,13 @@
 <view class="m-ucenter g-row greybg">
     <view class="m-uc-top">
         <view class="m-profile">
-            <image class="avatar" src="https://img02.camel.com.cn/image/headportrait345.png" alt=""></image>
+            <image class="avatar" src="http://img.hb.aicdn.com/b82dbd243f3936b828e204ec384c3a2b8c6215e91cf9e-FV8e3h_fw658" alt=""></image>
             <view class="info">
                 <view class="nickname">
-                    camel1059205
+                    用户名
                 </view>
                 <view class="membershipLevel">
-                    <text class="memberTitle1">驼客</text>
+                    <text class="memberTitle1">身份</text>
                 </view>
                 <view class="icon ion-ios-arrow-right top_right"></view>
             </view>
@@ -23,35 +23,35 @@
             <view class="list">
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon1.png" alt=""></image>
+                        <image class="menu-icon" src="http://img.hb.aicdn.com/fb95179b961a43ab495f2ae6e2e571a4d82a62be1bb2-eGWEsw_fw658" alt=""></image>
                         <text class="txt">待付款</text>
                         <text class="red-dot">0</text>
                     </navigator>
                 </view>
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon2.png" alt=""></image>
+                        <image class="menu-icon" src="http://img.hb.aicdn.com/b5328bb6e522ee8acca661b0fa97e0d007e588751c86-DMQFXc_fw658" alt=""></image>
                         <text class="txt">待发货</text>
                         <text class="red-dot">0</text>
                     </navigator>
                 </view>
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon3.png" alt=""></image>
+                        <image class="menu-icon" src="http://img.hb.aicdn.com/158aa4e880e4410b2e38faa85fee6d227ee867b13072-mS5Bzn_fw658" alt=""></image>
                         <text class="txt">已发货</text>
                         <text class="red-dot">0</text>
                     </navigator>
                 </view>
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon4.png" alt=""></image>
+                        <image class="menu-icon" src="http://img.hb.aicdn.com/bf054e4b545a6aa4ef000cd7165b55e61fcf5a5714b3-tKFdha_fw658" alt=""></image>
                         <text class="txt">待评价</text>
                         <text class="red-dot">0</text>
                     </navigator>
                 </view>
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img02.camel.com.cn/image/zwuc_icon5.png" alt=""></image>
+                        <image class="menu-icon" src="http://img.hb.aicdn.com/0383b9c4fde9443a20095d8c3c723cd976ea033d1891-s6YMJN_fw658" alt=""></image>
                         <text class="txt">退款/售后</text>
                     </navigator>
                 </view>
