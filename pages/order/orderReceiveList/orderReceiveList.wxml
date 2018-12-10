@@ -22,7 +22,7 @@
             <view class="item defualtItem">
                 <view class="left">
                     <p class="uname">
-                        冯文乐
+                        ***
                     </p>
                     <span class="default">默认</span>
                     <i class="icon icon-selected ion-checkmark-circled"></i>
@@ -32,7 +32,7 @@
                         176****2904
                     </p>
                     <p class="addr">
-                        上海-上海市-黄浦区 ， 石槎路396号骆驼大楼4F
+                        **********
                     </p>
                 </view>
                 <view class="right">
@@ -42,15 +42,15 @@
             <view class="item defualtItem">
                 <view class="left">
                     <p class="uname">
-                        是大好
+                        *****
                     </p>
                 </view>
                 <view class="middle">
                     <p class="phone">
-                        130****1246
+                        ********
                     </p>
                     <p class="addr">
-                        天津-天津市-和平区 ， 商量商量商量过了公司24号
+                        **************
                     </p>
                 </view>
                 <view class="right">

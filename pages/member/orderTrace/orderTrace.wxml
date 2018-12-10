@@ -23,14 +23,14 @@
                         <i class="icon icon-dot ion-ios-location-outline"></i>
                         <view class="detail">
                             <view class="desc">物流信息查询出现异常</view>
-                            <view class="time">2017/10/11 10:00:03</view>
+                            <view class="time">****/**/** **:**:**</view>
                         </view>
                     </view>
                     <view class="item ">
                         <i class="icon icon-dot ion-ios-location-outline"></i>
                         <view class="detail">
                             <view class="desc">您的包裹已出库</view>
-                            <view class="time">2016-04-07 15:32:58</view>
+                            <view class="time">****/**/** **:**:**</view>
                         </view>
                     </view>
                 </view>

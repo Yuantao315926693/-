@@ -23,26 +23,33 @@
         <view class="cate-left">
             <view class="list">
                 <view class="item active">
-                    <text class="txt">户外</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">运动</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">瑜伽</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">男鞋</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">女鞋</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">童装</text>
+                    <text class="txt">女装</text>
                 </view>
                 <view class="item ">
                     <text class="txt">男装</text>
                 </view>
+                <view class="item ">
+                    <text class="txt">美妆</text>
+                </view>
+                <view class="item ">
+                    <text class="txt">母婴</text>
+                </view>
+                <view class="item ">
+                    <text class="txt">内衣</text>
+                </view>
+                <view class="item ">
+                    <text class="txt">食品</text>
+                </view>
+                <view class="item ">
+                    <text class="txt">箱包</text>
+                </view>
+                 <view class="item ">
+                    <text class="txt">家居</text>
+                </view>
+                <view class="item ">
+                    <text class="txt">户外</text>
+                </view>
+               
             </view>
         </view>
         <view class="cate-right">
@@ -53,20 +60,20 @@
             <view class="cate-wrap">
                 <view class="cate-list">
                     <view class="item">
-                        <image src="https://img01.camel.com.cn/product_class/20170922/3ac4aaab-2af4-49ab-82a8-44f4e5d342de.png" alt=""></image> 
-                        <text>户外装备</text>
+                        <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image> 
+                        <text>衬衫</text>
                     </view>
                     <view class="item">
-                        <image src="https://img01.camel.com.cn/product_class/20170922/e80bf7ca-fdea-4d88-8c68-3b68150d170b.png" alt=""></image> 
-                        <text>户外服装</text>
+                        <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image> 
+                        <text>外套</text>
                     </view>
                     <view class="item">
-                        <image src="https://img01.camel.com.cn/product_class/20170922/38f8915f-da3f-4a30-98c4-3c5fa16b516f.png" alt=""></image> 
-                        <text>户外鞋靴</text>
+                        <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image> 
+                        <text>裤子</text>
                     </view>
                     <view class="item">
-                        <image src="https://img01.camel.com.cn/product_class/20170922/d37612cd-a31e-43e1-a4bc-470f2c224279.png" alt=""></image> 
-                        <text>户外包袋</text>
+                        <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image> 
+                        <text>裙装</text>
                     </view>
                 </view>
             </view>

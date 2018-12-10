@@ -21,18 +21,33 @@
                         <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">推荐</text></navigator>
                     </view>
                     <view>
-                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">户外</text></navigator>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">女装</text></navigator>
                     </view>
                     <view>
-                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">运动</text></navigator>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">男装</text></navigator>
                     </view>
                     <view>
-                        <text class="txt">瑜伽</text>
+                        <text class="txt">美妆</text>
                     </view>
                     <view>
-                        <text class="txt">男鞋</text>
+                        <text class="txt">母婴</text>
                     </view>
                     <view>
+                        <text class="txt">内衣</text>
+                    </view>
+                    <view>
+                        <text class="txt">食品</text>
+                    </view>
+                    <view>
+                        <text class="txt">箱包</text>
+                    </view>
+                    <view>
+                        <text class="txt">家居</text>
+                    </view>
+                    <view>
+                        <text class="txt">户外</text>
+                    </view>
+                    <!-- <view>
                         <text class="txt">女鞋</text>
                     </view>
                     <view>
@@ -55,22 +70,7 @@
                     </view>
                     <view>
                         <text class="txt">男装</text>
-                    </view>
-                    <view>
-                        <text class="txt">瑜伽</text>
-                    </view>
-                    <view>
-                        <text class="txt">男鞋</text>
-                    </view>
-                    <view>
-                        <text class="txt">女鞋</text>
-                    </view>
-                    <view>
-                        <text class="txt">童装</text>
-                    </view>
-                    <view>
-                        <text class="txt">男装</text>
-                    </view>
+                    </view> -->
                 </view>
             </view>
         </view>
@@ -327,15 +327,15 @@
                 <view class="zw-pli-info">
                     <view class="pli-info-wrap">
                         <view>
-                            <text class="h2">360°防震运动内衣</text>
+                            <text class="h2">*********</text>
                         </view>
                         <view>
-                            <text class="p1">一体编织成型</text>
+                            <text class="p1">*********</text>
                         </view>
                         <view class="h1">
                             <!-- react-text: 236 -->￥
                             <!-- /react-text -->
-                            <text>56.00</text>
+                            <text>*********.00</text>
                         </view>
                     </view>
                 </view>
@@ -345,15 +345,15 @@
                 <view class="zw-pli-info">
                     <view class="pli-info-wrap">
                         <view>
-                            <text class="h2">3D修身裁剪5件套</text>
+                            <text class="h2">*********</text>
                         </view>
                         <view>
-                            <text class="p1">一穿立变蜜桃臀</text>
+                            <text class="p1">*********</text>
                         </view>
                         <view class="h1">
                             <!-- react-text: 244 -->￥
                             <!-- /react-text -->
-                            <text>58.00</text>
+                            <text>*********.00</text>
                         </view>
                     </view>
                 </view>
@@ -363,15 +363,15 @@
                 <view class="zw-pli-info">
                     <view class="pli-info-wrap">
                         <view>
-                            <text class="h2">活力弹力4件套</text>
+                            <text class="h2"></text>
                         </view>
                         <view>
-                            <text class="p1">包出好三围</text>
+                            <text class="p1">*********</text>
                         </view>
                         <view class="h1">
                             <!-- react-text: 252 -->￥
                             <!-- /react-text -->
-                            <text>219.00</text>
+                            <text>*********</text>
                         </view>
                     </view>
                 </view>
@@ -386,31 +386,31 @@
             <text class="more">更多></text>
         </view>
         <view class="zw-banner">
-            <image style="width:750rpx; height:376rpx;" src="http://img.hb.aicdn.com/169abcc3e12a0ebc95e452a19d28b668687f3aaa22720-mkdOS9_fw658" alt=""></image>
+            <image style="width:750rpx; height:376rpx;" src="http://img.hb.aicdn.com/b498f597b8bc288cc6b1ddbff34ebe07b66955d68eee-Ejnd0h_fw658" alt=""></image>
         </view>
 
         <view class="zw-proul">
             <view class="zw-proli">
-                <image src="https://img01.camel.com.cn/product/image/1F01018/918b822c-76f0-4f29-b3e2-cced7e961e1d.jpg" alt=""></image>
-                <view class="zw-proli-tips">排湿透气 不怕背着黏糊糊</view>
+                <image src="http://img.hb.aicdn.com/2c67651950d2f3afe99112c83f4ccfdaf9046eca475fd-uv8r5g_fw658" alt=""></image>
+                <view class="zw-proli-tips">***********</view>
                 <view class="zw-proli-info">
-                    <view>骆驼户外登山包</view>
+                    <view>*******</view>
                     <view class="price-wrap">
                         <!-- react-text: 158 -->￥
                         <!-- /react-text -->
-                        <text class="price">178.00</text>
+                        <text class="price">***.00</text>
                     </view>
                 </view>
             </view>
             <view class="zw-proli">
-                <image src="https://img01.camel.com.cn/product/image/A5W3H8101/9f739417-7bfe-49fd-a4d9-dc09eecbc42c.jpg" alt=""></image>
-                <view class="zw-proli-tips">3秒速开 一眨眼就完成</view>
+                <image src="http://img.hb.aicdn.com/1304e758c039a40b90e3631ef6288df037a8bc5d9b1fb-HV7Gdd_fw658" alt=""></image>
+                <view class="zw-proli-tips">**********</view>
                 <view class="zw-proli-info">
-                    <view>第四代自动速开帐篷</view>
+                    <view>*********</view>
                     <view class="price-wrap">
                         <!-- react-text: 166 -->￥
                         <!-- /react-text -->
-                        <text class="price">238.00</text>
+                        <text class="price">***.00</text>
                     </view>
                 </view>
             </view>

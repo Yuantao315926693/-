@@ -5,11 +5,11 @@
             <view class="txtwrap">
                 <view class="p1">
                     下单时间：
-                    <span class="s1">2017年10月12日 18:53:37</span>
+                    <span class="s1">***年**月**日 **:**:**</span>
                 </view>
                 <view class="p1">
                     订单编号：
-                    <span class="s1">201710121854098642</span>
+                    <span class="s1">************</span>
                 </view>
             </view>
         </view>
@@ -23,18 +23,18 @@
             <view class="order-item">
                 <view class="bd">
                     <view class="left">
-                        <image src="https://img01.camel.com.cn/product/image/D6Y105770/fb0a8c0f-eb87-4475-8f67-796caad29584.jpg!prodimg100" class="pic" alt=""></image>
+                        <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" class="pic" alt=""></image>
                     </view>
                     <view class="middle">
                         <view class="goodInfo">
                             <view class="p1">
-                                Camel骆驼男装 秋冬款新品男士流行纯色可脱卸帽羽绒服外套
+                                ************************
                             </view>
                             <view class="p2">
-                                咖啡*M(170/88A)
+                                ***(170/88A)
                             </view>
                             <view class="p6">
-                                ￥184.00
+                                ￥**.00
                             </view>
                         </view>
                     </view>
@@ -58,7 +58,7 @@
                             退运费，f1
                         </view>
                         <view class="time">
-                            2017年10月12日 18:54:12
+                            ***年**月**日 **:**:**
                         </view>
                     </view>
                 </view>
@@ -69,7 +69,7 @@
                             退运费，f1
                         </view>
                         <view class="time">
-                            2017年10月12日 18:54:12
+                           ***年**月**日 **:**:**
                         </view>
                     </view>
                 </view>

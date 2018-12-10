@@ -20,14 +20,14 @@
     <view class="userProfile">
         <view class="avatar">
             <view class="wrap">
-                <image class="pic" mode="widthFix" src="https://img02.camel.com.cn/image/headportrait345.png" alt=""></image>
+                <image class="pic" mode="widthFix" src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image>
             </view>
         </view>
         <view class="infos">
             <view class="item">
                 <text class="label">帐号</text>
                 <view class="right">
-                    <span>camel1059205</span>
+                    <span>*******</span>
                 </view>
             </view>
             <view class="item">

@@ -40,9 +40,9 @@
                                 <image src="https://img01.camel.com.cn/product/image/D6Y105770/cf2d08db-449d-4fb5-9561-c69b5c97ca5d.jpg!prodimg100" alt="" mode="widthFix"></image>
                             </view>
                             <view class="cnt">
-                                <view class="line1">Camel骆驼男装 秋冬款新品男士流行纯色可脱卸帽羽绒服外套</view>
-                                <view class="line2">咖啡*M(170/88A)</view>
-                                <view class="line3">￥218.00</view>
+                                <view class="line1">***************************************</view>
+                                <view class="line2">*****(***/**A)</view>
+                                <view class="line3">￥***.00</view>
                             </view>
                             <view class="m-selnum">
                                 <view class="less dis">
@@ -67,9 +67,9 @@
             <view class="left">
                 <view class="checkAll">
                     <i class="icon icon-ischecked-g ion-checkmark-circled"></i>
-                    <text class="txt">已选 (1)</text>
+                    <text class="txt">** (1)</text>
                 </view>
-                <view class="price">￥218.00
+                <view class="price">￥**.00
                     <text class="prefer">（优惠:0）</text>
                 </view>
             </view>
