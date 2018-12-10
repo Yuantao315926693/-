@@ -1,0 +1,87 @@
+<!--pages/member/productStore/productStore.wxml-->
+<view class="container greybg">
+    <view class="productStore">
+        <view class="m-cartGroup">
+            <view class="list">
+                <view class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <view class="imgWrap">
+                                <view>
+                                    <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image>
+                                </view>
+                            </view>
+                            <view class="cnt">
+                                <view class="vc">
+                                    <view>
+                                        <text class="line1">**********</text>
+                                    </view>
+                                    <view>
+                                        <text class="line3">￥***.00</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="m-selnum">
+                            </view>
+                        </view>
+                        <view class="del">
+                            <i class="icon icon-trash ion-ios-trash-outline"></i>
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <view class="imgWrap">
+                                <view>
+                                    <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image>
+                                </view>
+                            </view>
+                            <view class="cnt">
+                                <view class="vc">
+                                     <view>
+                                        <text class="line1">*********</text>
+                                    </view>
+                                    <view>
+                                        <text class="line3">￥***.00</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="m-selnum">
+                            </view>
+                        </view>
+                        <view class="del">
+                            <i class="icon icon-trash ion-ios-trash-outline"></i>
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <view class="inner">
+                        <view class="m-good">
+                            <view class="imgWrap">
+                                <view>
+                                    <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image>
+                                </view>
+                            </view>
+                            <view class="cnt">
+                                <view class="vc">
+                                     <view>
+                                        <text class="line1">**********</text>
+                                    </view>
+                                    <view>
+                                        <text class="line3">￥***.00</text>
+                                    </view>
+                                </view>
+                            </view>
+                            <view class="m-selnum">
+                            </view>
+                        </view>
+                        <view class="del">
+                            <i class="icon icon-trash ion-ios-trash-outline"></i>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

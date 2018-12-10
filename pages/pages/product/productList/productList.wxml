@@ -1,0 +1,129 @@
+<!--pages/product/productList/productList.wxml-->
+<view class="container">
+    <view class="m-indexHd" style="height: 162rpx;">
+        <view class="m-hd g-row">
+            <view class="m-indextop">
+                <view class="top-line">
+                    <view class="logo"></view>
+                    <view class="m-searchTop">
+                        <navigator url="../search/search" hover-class="changestyle">
+                            <view class="zw-search-link">
+                                <view class="icon-search"></view>
+                                <text class="placeholder">点击输入搜索商品</text>
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+            <view class="inner">
+                <view class="m-navs disflex">
+                    <view class="active">
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">推荐</text></navigator>
+                    </view>
+                    <view>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">女装</text></navigator>
+                    </view>
+                    <view>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">男装</text></navigator>
+                    </view>
+                    <view>
+                        <text class="txt">美妆</text>
+                    </view>
+                    <view>
+                        <text class="txt">母婴</text>
+                    </view>
+                    <view>
+                        <text class="txt">内衣</text>
+                    </view>
+                    <view>
+                        <text class="txt">食品</text>
+                    </view>
+                    <view>
+                        <text class="txt">箱包</text>
+                    </view>
+                    <view>
+                        <text class="txt">家居</text>
+                    </view>
+                    <view>
+                        <text class="txt">户外</text>
+                    </view>
+                    <!-- <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
+                    </view>
+                    <view>
+                        <text class="txt">瑜伽</text>
+                    </view>
+                    <view>
+                        <text class="txt">男鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
+                    </view> -->
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="m-list-floor g-row">
+        <view class="hd3">
+            <view class="dtit">女装</view>
+            <view class="desc"></view>
+        </view>
+        <view class="m-goods-grid">
+            <view class="list">
+                <view class="item">
+                    <view class="wraper">
+                        <view class="hd">
+                            <image class="pic" src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image>
+                            <view class="specification">
+                                <view class="count">*</view>
+                                <!-- react-text: 4122 -->***
+                                <!-- /react-text -->
+                            </view>
+                        </view>
+                        <view class="desc">*************</view>
+                        <view class="name">**********</view>
+                        <view class="price">
+                            <!-- react-text: 4126 -->￥
+                            <!-- /react-text -->
+                            <!-- react-text: 4127 -->***.00
+                            <!-- /react-text -->
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <view class="wraper">
+                        <view class="hd">
+                            <image class="pic" src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt=""></image>
+                            <view class="specification">
+                                <view class="count">*</view>
+                                <!-- react-text: 4135 -->***
+                                <!-- /react-text -->
+                            </view>
+                        </view>
+                        <view class="desc">********</view>
+                        <view class="name">********</view>
+                        <view class="price">
+                            <!-- react-text: 4126 -->￥
+                            <!-- /react-text -->
+                            <!-- react-text: 4127 -->***.00
+                            <!-- /react-text -->
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

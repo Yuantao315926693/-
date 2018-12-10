@@ -1,0 +1,69 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/search/search",
+        "pages/category/category",
+        "pages/basket/basket",
+        "pages/product/productList/productList",
+        "pages/product/productDetail/productDetail",
+        "pages/order/orderConfirm/orderConfirm",
+        "pages/order/orderReceive/orderReceive",
+        "pages/order/orderReceiveList/orderReceiveList",
+        "pages/order/orderTicketList/orderTicketList",
+        "pages/member/profile/profile",
+        "pages/member/orderList/orderList",
+        "pages/member/orderDetail/orderDetail",
+        "pages/member/mobileVerify/mobileVerify",
+        "pages/member/receiveList/receiveList",
+        "pages/member/productCommentList/productCommentList",
+        "pages/member/productStore/productStore",
+        "pages/member/orderTrace/orderTrace",
+        "pages/member/account/account",
+        "pages/center/center",
+        "pages/portal/help/help",
+        "pages/portal/helpList/helpList",
+        "pages/member/ticketList/ticketList",
+        "pages/member/productComment/productComment",
+        "pages/member/apply/apply"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#d1eeee",
+        "navigationBarTitleText": "交大锦鲤",
+        "navigationBarTextStyle": "white"
+       
+    },
+    "tabBar": {
+        "color": "#666",
+        "selectedColor": "#0488b0",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "#d9d9d9",
+        "list": [
+            {
+                "selectedIconPath": "images/首页2.png",
+                "iconPath": "images/首页1.png",
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "selectedIconPath": "images/发现2.png",
+                "iconPath": "images/发现1.png",
+                "pagePath": "pages/category/category",
+                "text": "分类"
+            },
+            {
+                "selectedIconPath": "images/购物车2.png",
+                "iconPath": "images/购物车1.png",
+                "pagePath": "pages/basket/basket",
+                "text": "购物车"
+            },
+            {
+                "selectedIconPath": "images/个人中心2.png",
+                "iconPath": "images/个人中心1.png",
+                "pagePath": "pages/center/center",
+                "text": "我的"
+            }
+        ]
+    }
+}

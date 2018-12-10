@@ -1,0 +1,40 @@
+<!--pages/member/productCommentList/productCommentList.wxml-->
+<view class="container greybg">
+    <view class="m-productComment">
+        <view class="commentContent">
+            <view class="order-item">
+                <view class="bd">
+                    <view class="left">
+                        <image src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt="" class="pic"></image>
+                    </view>
+                    <view class="middle">
+                        <view class="goodInfo">
+                            <view class="p1">
+                               ************************
+                            </view>
+                            <view class="p2">
+                                浅蓝，43
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="commented">
+                <view class="content">
+                    测试
+                </view>
+                <view class="comment-pics">
+                    <view class="item">
+                        <image class="pic" src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt="" mode='widthFix'></image>
+                    </view>
+                    <view class="item">
+                        <image class="pic" src="http://img.hb.aicdn.com/a9e31a80a176f0b2a77ff6e46c820d455ce2e78f1b51-MNhPHB_fw658" alt="" mode='widthFix'></image>
+                    </view>
+                </view>
+                <view class="date">
+                    ****年**月**日 **:**:**
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
