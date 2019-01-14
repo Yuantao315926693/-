@@ -2,7 +2,7 @@
 <view class="m-ucenter g-row greybg">
     <view class="m-uc-top">
         <view class="m-profile">
-            <image class="avatar" src="http://img.hb.aicdn.com/b82dbd243f3936b828e204ec384c3a2b8c6215e91cf9e-FV8e3h_fw658" alt=""></image>
+            <image class="avatar" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E5%A4%B4%E5%83%8F.jpg" alt=""></image>
             <view class="info">
                 <view class="nickname">
                     用户名
