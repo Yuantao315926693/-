@@ -23,35 +23,35 @@
             <view class="list">
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img.hb.aicdn.com/fb95179b961a43ab495f2ae6e2e571a4d82a62be1bb2-eGWEsw_fw658" alt=""></image>
+                        <image class="menu-icon" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E5%BE%85%E4%BB%98%E6%AC%BE.png" alt=""></image>
                         <text class="txt">待付款</text>
                         <text class="red-dot">0</text>
                     </navigator>
                 </view>
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img.hb.aicdn.com/b5328bb6e522ee8acca661b0fa97e0d007e588751c86-DMQFXc_fw658" alt=""></image>
+                        <image class="menu-icon" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E5%BE%85%E5%8F%91%E8%B4%A7.png" alt=""></image>
                         <text class="txt">待发货</text>
                         <text class="red-dot">0</text>
                     </navigator>
                 </view>
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img.hb.aicdn.com/158aa4e880e4410b2e38faa85fee6d227ee867b13072-mS5Bzn_fw658" alt=""></image>
+                        <image class="menu-icon" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E5%B7%B2%E5%8F%91%E8%B4%A7.png" alt=""></image>
                         <text class="txt">已发货</text>
                         <text class="red-dot">0</text>
                     </navigator>
                 </view>
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img.hb.aicdn.com/bf054e4b545a6aa4ef000cd7165b55e61fcf5a5714b3-tKFdha_fw658" alt=""></image>
+                        <image class="menu-icon" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E8%AF%84%E4%BB%B7.png" alt=""></image>
                         <text class="txt">待评价</text>
                         <text class="red-dot">0</text>
                     </navigator>
                 </view>
                 <view class="item">
                     <navigator url="../member/orderList/orderList">
-                        <image class="menu-icon" src="http://img.hb.aicdn.com/0383b9c4fde9443a20095d8c3c723cd976ea033d1891-s6YMJN_fw658" alt=""></image>
+                        <image class="menu-icon" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E5%94%AE%E5%90%8E%E9%80%80%E6%AC%BE.png" alt=""></image>
                         <text class="txt">退款/售后</text>
                     </navigator>
                 </view>

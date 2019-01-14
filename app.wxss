@@ -416,7 +416,7 @@ page {
     border-radius: 8rpx;
     border: 1px solid #ccc;
 }
-
+/* 搜索图标 */
 .m-searchTop .icon-search {
     display: inline-block;
     width: 60rpx;
@@ -437,7 +437,7 @@ page {
 .top-line .logo {
     width: 138rpx;
     height: 80rpx;
-    background-image: url(http://img.hb.aicdn.com/658a12136d247ac0ea9651c6e1445f8daf371f311a943-ZH6mov_fw658);
+    background-image: url(https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E4%BA%A4%E5%A4%A7%E9%94%A6%E9%B2%A4.png);
     display: inline-block;
     margin-right: 20rpx;
     background-size: cover;
