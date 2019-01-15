@@ -9,8 +9,11 @@
                         <i class="icon tg-icon ion-ios-arrow-back"></i>
                         <text class="topBarTitle">购物车</text>
                         <view class="right">
-                            <i class="icon tg-icon ion-ios-home-outline"></i>
+                             <view class="button" bindtap='buymanager'>
+                                管理
+                              </view>                            
                         </view>
+                        
                     </view>
                 </view>
             </view>
@@ -19,7 +22,7 @@
 
 
     <view class="cart-wrap">
-        <view class="mc-servicePolicy">
+        <!-- <view class="mc-servicePolicy">
             <view class="item">
                 <text>30天无忧退货</text>
             </view>
@@ -29,7 +32,7 @@
             <view class="item">
                 <text>满59元免邮费</text>
             </view>
-        </view>
+        </view> -->
         <view class="m-cartGroup">
             <view class="list">
                 <view class="item">
@@ -37,7 +40,7 @@
                         <view class="m-good">
                             <i class="icon icon-ischecked-g ion-checkmark-circled"></i>
                             <view class="imgWrap">
-                                <image src="https://img01.camel.com.cn/product/image/D6Y105770/cf2d08db-449d-4fb5-9561-c69b5c97ca5d.jpg!prodimg100" alt="" mode="widthFix"></image>
+                                <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/顶包鱼.jpg" alt="" mode="widthFix"></image>
                             </view>
                             <view class="cnt">
                                 <view class="line1">***************************************</view>
@@ -66,15 +69,26 @@
         <view class="m-cartFT">
             <view class="left">
                 <view class="checkAll">
-                    <i class="icon icon-ischecked-g ion-checkmark-circled"></i>
-                    <text class="txt">** (1)</text>
+                    <i class="icon icon-ischecked-g ion-checkmark-circled"></i> <i class="icon ion-android-cart"></i>
+                    
+                    <text class="txt">全选(1)</text>
                 </view>
                 <view class="price">￥**.00
                     <text class="prefer">（优惠:0）</text>
                 </view>
             </view>
-            <view class="right">
-                <navigator url="../order/orderConfirm/orderConfirm" hover-class="navigator-hover"><view class="btn w-button">下单</view></navigator>
+            <view wx:if="{{boolean==false}}"class="right">
+                <navigator url="../order/orderConfirm/orderConfirm" hover-class="navigator-hover">
+                <view class="btn w-button">
+                下单
+                </view>
+                 </navigator>
+            </view>
+            <view wx:elif="{{boolean==true}}"class="right">
+              <view class="btn w-button">
+               删除
+              </view>
+               
             </view>
         </view>
     </view>
