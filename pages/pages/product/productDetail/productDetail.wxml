@@ -34,9 +34,9 @@
     <view class="dt-section">
         <view class="m-detailBase">
             <view class="info">
-                <view class="name">Camel骆驼运动跑鞋 男女休闲透气运动鞋 轻便耐磨跑步鞋</view>
-                <view class="desc">中国田径协会马拉松赛指定款 竞速级跑步体验</view>
-                <view class="price">￥140.00</view>
+                <view class="name">*************************</view>
+                <view class="desc">*************************</view>
+                <view class="price">￥***.00</view>
                 <!-- <view class="taglist">
                     <view class="wrap"></view>
                 </view> -->
@@ -102,11 +102,11 @@
                 </view>
             </view>
             <view class="extraInfo">
-                <text class="time">2017年09月19日 17:54:00</text>
+                <text class="time">****年**月**日 **:**:**</text>
                 <text class="skus">女,粉红38</text>
             </view>
             <view class="content">
-                <p class="txt">物有所值，希望大家购买，穿着十分轻便、透气，优良鞋底很厚，鞋子是正品，鞋底防滑效果不错，价格也便宜，是运动健身很好的选择，推荐给大家放心、舒心、安心的购买</p>
+                <p class="txt">********************************************************</p>
             </view>
             <view class="commentPics">
                 <ul class="list"></ul>
@@ -127,7 +127,7 @@
                     </view>
                 </view>
             </view>
-            <image src="https://img01.camel.com.cn/product/detail/A712357085/7b743ca4-54fe-408a-aeb6-380603f20c73.jpg" alt="" mode="widthFix"></image>
+            <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E7%AB%96%E7%89%881.jpg" alt="" mode="widthFix"></image>
         </view>
         <view class="m-commonIssues m-rmcdGoods">
             <view class="tt">
