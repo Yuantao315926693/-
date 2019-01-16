@@ -20,9 +20,9 @@
         </view>
     </view>
 
-
-    <view class="cart-wrap">
-        <!-- <view class="mc-servicePolicy">
+<!-- //顶端优惠提示 -->
+    <!-- <view class="cart-wrap">
+        <view class="mc-servicePolicy">
             <view class="item">
                 <text>30天无忧退货</text>
             </view>
@@ -33,7 +33,12 @@
                 <text>满59元免邮费</text>
             </view>
         </view> -->
+
+
+        <!-- 商品展示框 -->
+       
         <view class="m-cartGroup">
+         
             <view class="list">
                 <view class="item">
                     <view class="inner">
@@ -42,9 +47,10 @@
                             <view class="imgWrap">
                                 <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/顶包鱼.jpg" alt="" mode="widthFix"></image>
                             </view>
-                            <view class="cnt">
-                                <view class="line1">***************************************</view>
-                                <view class="line2">*****(***/**A)</view>
+                            
+      <view class="cnt">
+           <view class="line1">***************************************</view>
+                    <view class="line2">*****(***/**A)</view>
                                 <view class="line3">￥***.00</view>
                             </view>
                             <view class="m-selnum">
@@ -65,7 +71,12 @@
                     </view>
                 </view>
             </view>
+          
         </view>
+
+<!-- 商品展示框结束 -->
+
+
         <view class="m-cartFT">
             <view class="left">
                 <view class="checkAll">
@@ -73,10 +84,17 @@
                     
                     <text class="txt">全选(1)</text>
                 </view>
-                <view class="price">￥**.00
+
+                <view wx:if="{{boolean==false}}"class="price">￥**.00
                     <text class="prefer">（优惠:0）</text>
                 </view>
+                <view wx:elif="{{boolean==true}}"class="price">
+                <i class="icon ion-star" style='color : red'></i>
+                <text class="prefer">移至收藏夹</text>
+                </view>
+
             </view>
+
             <view wx:if="{{boolean==false}}"class="right">
                 <navigator url="../order/orderConfirm/orderConfirm" hover-class="navigator-hover">
                 <view class="btn w-button">
@@ -92,4 +110,4 @@
             </view>
         </view>
     </view>
-</view>
+<!-- </view> -->
