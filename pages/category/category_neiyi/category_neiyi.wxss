@@ -1,0 +1,6 @@
+/* pages/category/category_neiyi/category_neiyi.wxss */
+.cate-tit
+{
+  font-weight:bold;
+  font-size:large;
+}

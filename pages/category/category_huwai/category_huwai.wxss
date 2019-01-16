@@ -1,0 +1,6 @@
+/* pages/category/category_huwai/category_huwai.wxss */
+.cate-tit
+{
+  font-weight:bold;
+  font-size:large;
+}

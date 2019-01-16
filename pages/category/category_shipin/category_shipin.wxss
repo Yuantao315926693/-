@@ -1,0 +1,6 @@
+/* pages/category/category_shipin/category_shipin.wxss */
+.cate-tit
+{
+  font-weight:bold;
+  font-size:large;
+}
