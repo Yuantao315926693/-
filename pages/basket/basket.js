@@ -6,7 +6,8 @@ Page({
    */
   data: {
     boolean: false,
-    mun :1
+    mun :2
+
 
   },
 
@@ -76,4 +77,6 @@ Page({
 
     })
   }
+
+ 
 })
