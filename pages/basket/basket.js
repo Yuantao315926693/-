@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    boolean: false,
+    mun :1
+
   },
 
   /**
@@ -62,5 +64,16 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+//用户点击管理
+  buymanager:function()
+  {
+    var bol = this.data.boolean;
+
+    this.setData({
+
+      boolean: !bol
+
+    })
   }
 })
