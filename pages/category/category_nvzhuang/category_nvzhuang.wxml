@@ -1,4 +1,4 @@
-<!--pages/product/productList/productList.wxml-->
+<!--pages/category/category_nvzhuang/category_nvzhuang.wxml-->
 <view class="container">
     <view class="m-indexHd" style="height: 162rpx;">
         <view class="m-hd g-row">
@@ -27,12 +27,14 @@
                 <view class="item">
                     <view class="wraper">
                         <view class="hd">
+                          <navigator url="../productDetail/productDetail" hover-class="changestyle">
                             <image class="pic" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E9%B1%BC.jpg" alt=""></image>
                             <view class="specification">
                                 <view class="count">*</view>
                                 <!-- react-text: 4122 -->***
                                 <!-- /react-text -->
                             </view>
+                          </navigator>
                         </view>
                         <view class="desc">*************</view>
                         <view class="name">**********</view>
@@ -47,12 +49,14 @@
                 <view class="item">
                     <view class="wraper">
                         <view class="hd">
+                          <navigator url="../productDetail/productDetail" hover-class="changestyle">
                             <image class="pic" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image>
                             <view class="specification">
                                 <view class="count">*</view>
                                 <!-- react-text: 4135 -->***
                                 <!-- /react-text -->
                             </view>
+                          </navigator>
                         </view>
                         <view class="desc">********</view>
                         <view class="name">********</view>

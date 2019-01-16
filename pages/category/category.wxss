@@ -1,1 +1,12 @@
 /* pages/category/category.wxss */
+.cate-tit
+{
+  font-weight:bold;
+  font-size:large;
+}
+.cate-list
+{
+  text-align: center;
+  line-height: 40rpx;
+  font-size:smaller;
+}

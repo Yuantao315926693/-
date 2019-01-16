@@ -2,82 +2,104 @@
 <view class="container whitebg">
 
     <view class="m-indexHd" style="height: 102rpx;">
-        <view class="m-hd g-row">
-            <view class="m-indextop">
-                <view class="top-line">
-                    <view class="logo"></view>
-                    <view class="m-searchTop">
-                        <navigator url="../search/search" hover-class="changestyle">
-                            <view class="zw-search-link">
-                                <view class="icon-search"></view>
-                                <text class="placeholder">点击输入搜索商品</text>
-                            </view>
-                        </navigator>
-                    </view>
-                </view>
-            </view>
-        </view>
-    </view>
+      <view class="m-hd g-row">
+          <view class="m-indextop">
+              <view class="top-line">
+                  <view class="logo"></view>
+                  <view class="m-searchTop">
+                      <navigator url="../search/search" hover-class="changestyle">
+                          <view class="zw-search-link">
+                              <view class="icon-search"></view>
+                              <text class="placeholder">点击输入搜索商品</text>
+                          </view>
+                      </navigator>
+                  </view>
+                  </view>
+           </view>
+       </view>
+     </view>
 
-    <view class="g-row categoryWrap">
-        <view class="cate-left">
-            <view class="list">
-                <view class="item active">
-                    <text class="txt">女装</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">男装</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">美妆</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">母婴</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">内衣</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">食品</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">箱包</text>
-                </view>
-                 <view class="item ">
-                    <text class="txt">家居</text>
-                </view>
-                <view class="item ">
-                    <text class="txt">户外</text>
-                </view>
-               
-            </view>
-        </view>
-        <view class="cate-right">
-            <view class="cate-bn"></view>
-            <view class="cate-tit">
-                <text class="txt">运动系列</text>
-            </view>
-            <view class="cate-wrap">
-                <view class="cate-list">
-                    <view class="item">
-                        <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
-                        <text>衬衫</text>
-                    </view>
-                    <view class="item">
-                        <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
-                        <text>外套</text>
-                    </view>
-                    <view class="item">
-                        <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
-                        <text>裤子</text>
-                    </view>
-                    <view class="item">
-                        <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
-                        <text>裙装</text>
-                    </view>
-                </view>
-            </view>
-        </view>
+    <view class="cate-tit">
+        <text class="txt">分类</text>
     </view>
-
+    <view class="cate-list">
+      <view class="cate-list-top" style="display:flex; flex-direction:raw;">
+        <view class="cate-list-left">
+          <view>
+            <navigator url="../category/category_nvzhuang/category_nvzhuang" hover-class="navigator-hover">
+              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>女装</text>
+            </navigator>
+            </view>
+          </view>
+        <view class="cate-list-centr">
+          <view>
+            <navigator url="../category/category_nanzhuang/category_nanzhuang" hover-class="navigator-hover">
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>男装</text>
+            </navigator>
+           </view>
+          </view>
+        <view class="cate-list-right">
+          <view>
+            <navigator url="../category/category_meizhuang/category_meizhuang" hover-class="navigator-hover">
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>美妆</text>
+            </navigator>
+            </view>
+          </view>
+       </view>
+      <view class="cate-list-mid" style="display:flex; flex-direction:raw;">
+        <view class="cate-list-left">
+          <view>
+            <navigator url="../category/category_muying/category_muying" hover-class="navigator-hover">
+              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>母婴</text>
+            </navigator>
+            </view>
+          </view>
+        <view class="cate-list-centr">
+          <view>
+            <navigator url="../category/category_neiyi/category_neiyi" hover-class="navigator-hover">
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>内衣</text>
+            </navigator>
+           </view>
+          </view>
+        <view class="cate-list-right">
+          <view>
+            <navigator url="../category/category_shipin/category_shipin" hover-class="navigator-hover">
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>食品</text>
+            </navigator>
+            </view>
+          </view>
+       </view>
+      <view class="cate-list-bottom" style="display:flex; flex-direction:raw;">
+        <view class="cate-list-left">
+          <view>
+            <navigator url="../category/category_xiangbao/category_xiangbao" hover-class="navigator-hover">
+              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>箱包</text>
+            </navigator>
+            </view>
+          </view>
+        <view class="cate-list-centr">
+          <view>
+            <navigator url="../category/category_jiaju/category_jiaju" hover-class="navigator-hover">
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>家居</text>
+            </navigator>
+           </view>
+          </view>
+        <view class="cate-list-right">
+          <view>
+            <navigator url="../category/category_huwai/category_huwai" hover-class="navigator-hover">
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <text>户外</text>
+            </navigator>
+            </view>
+          </view>
+       </view>
+     </view>
 </view>

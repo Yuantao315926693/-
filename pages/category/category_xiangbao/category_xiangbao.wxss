@@ -1,0 +1,6 @@
+/* pages/category/category_xiangbao/category_xiangbao.wxss */
+.cate-tit
+{
+  font-weight:bold;
+  font-size:large;
+}
