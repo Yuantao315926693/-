@@ -1,1 +1,7 @@
 /* pages/portal/helpList/helpList.wxss */
+.tit
+{
+  text-align: center;
+  font-size:x-large;
+  font-weight:bold;
+}

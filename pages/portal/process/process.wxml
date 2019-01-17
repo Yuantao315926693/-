@@ -1,0 +1,92 @@
+<!--pages/portal/process/process.wxml-->
+<view class="container greybg">
+    <view class="helpCon g-row">
+        <view class="wraper" style="display:flex; flex-direction:raw;">
+            <text class="title">购物流程</text>
+        </view>
+        <view class="divLine1"></view>
+        <view class="wraper">
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-1.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">01.用户注册</text>
+                    <text class="title-branch2">\n根据提示填写详细个人信息，同意协议，提交完成注册</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-2.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">02.查找商品</text>
+                    <text class="title-branch2">\n分类浏览或者直接通过搜索来查找产品</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-3.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">03.放入购物车</text>
+                    <text class="title-branch2">\n将需要购买的商品放入购物车后结算或者继续购物</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-4.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">04.填写收货信息</text>
+                    <text class="title-branch2">\n详细填写收货信息及送货方式</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-5.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">05.选择支付方式</text>
+                    <text class="title-branch2">\n可以选择网上支付或货到付款的方式</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-6.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">06.使用优惠券</text>
+                    <text class="title-branch2">\n输入代金券、商品兑换券、会员专享编码获得优惠</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-7.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">07.提交订单</text>
+                    <text class="title-branch2">\n核对商品信息与收货信息确认后提交订单</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-8.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">08.查看订单状态</text>
+                    <text class="title-branch2">\n订单发货后可在网上查询订单的配送过程的状态</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:160rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/gw-9.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">09.收货后评价</text>
+                    <text class="title-branch2">\n收到货后您可以评价晒单</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
