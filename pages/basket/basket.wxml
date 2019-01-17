@@ -34,33 +34,37 @@
             </view>
         </view> -->
 
-
+ 
         <!-- 商品展示框 -->
-       
-        <view class="m-cartGroup">
+<block wx:for="{{p_data}}" data-item="item" wx:for-index="idx" >
+  <view>
+    <view class="m-cartGroup">
          
             <view class="list">
                 <view class="item">
                     <view class="inner">
                         <view class="m-good">
-                            <i class="icon icon-ischecked-g ion-checkmark-circled"></i>
-                            <view class="imgWrap">
+                            <!-- <i class="icon icon-ischecked-g ion-checkmark-circled"></i> -->
+                         <i wx:if="{{item.p_able}}"class="icon icon-ischecked-g ion-checkmark-circled"  ></i>
+                            <view class="imgWrap"bindtap="p_clecked" data-index="{{item.id}}"data-able="{{item.p_able}}">
                                 <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/顶包鱼.jpg" alt="" mode="widthFix"></image>
                             </view>
                             
       <view class="cnt">
-           <view class="line1">***************************************</view>
-                    <view class="line2">*****(***/**A)</view>
-                                <view class="line3">￥***.00</view>
+           <view class="line1">{{item.p_info}}</view>
+                    <view class="line2">{{item.p_size}}</view>
+                                <view class="line3">{{item.price}}</view>
                             </view>
                             <view class="m-selnum">
-                                <view class="less dis">
-                                    <i class="icon ion-ios-minus-empty"></i>
-                                </view>
+                                                              
+                                  <view class="less dis"bindtap="p_decnum" data-index="{{item.id}}"data-num="{{item.p_num}}">
+                                    <i class="icon ion-ios-minus-empty"></i>                                                         </view>
+
+
                                 <view class="textWrap">
-                                    <input class="txt" value="1" />
+                                    <input class="txt" value="{{item.p_num}}" />
                                 </view>
-                                <view class="plus">
+                                <view class="plus"bindtap="p_addnum" data-index="{{item.id}}"data-num="{{item.p_num}}">
                                     <i class="icon ion-ios-plus-empty"></i>
                                 </view>
                             </view>
@@ -73,7 +77,11 @@
             </view>
           
         </view>
+     
+  </view>
+</block>
 
+     
 <!-- 商品展示框结束 -->
 
 
@@ -85,7 +93,7 @@
                     <text class="txt">全选(1)</text>
                 </view>
 
-                <view wx:if="{{boolean==false}}"class="price">￥**.00
+                <view wx:if="{{boolean==false}}"class="price">{{t_price}}
                     <text class="prefer">（优惠:0）</text>
                 </view>
                 <view wx:elif="{{boolean==true}}"class="price">
