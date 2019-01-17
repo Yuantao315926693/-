@@ -2,14 +2,20 @@
 <view class="container greybg">
     <view class="helpWrap g-row">
         <view class="list">
+            <navigator url="../process/process" hover-class="navigator-hover">
             <view class="item">
                 <view class="tit">购物流程</view>
                 <i class="icon icon-arrow-right ion-ios-arrow-forward"></i>
             </view>
+            </navigator>
+            <navigator url="../help/help" hover-class="navigator-hover">
             <view class="item">
-                <view class="tit">购物保障</view>
+                <view class="tit">
+                   <text class="text">购物保障</text>
+                </view>
                 <i class="icon icon-arrow-right ion-ios-arrow-forward"></i>
             </view>
+            </navigator>
         </view>
     </view>
 </view>

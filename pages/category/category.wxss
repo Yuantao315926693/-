@@ -11,13 +11,10 @@ page {
 {
   font-weight:bold;
   font-size:large;
-  white-space:inherit;
-}
+  }
 .cate-list
 {
   text-align: center;
   line-height: 40rpx;
   font-size:smaller;
-  white-space:unset;
-
 }

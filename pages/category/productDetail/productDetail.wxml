@@ -1,0 +1,131 @@
+<!--pages/category/productDetail/productDetail.wxml-->
+<view class="container greybg">
+    <view class="zw-banner detail-swiper">
+        <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" circular="{{circular}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                    <navigator url="../product/productDetail/productDetail" hover-class="changestyle">
+                        <image src="{{item}}" class="slide-image" width="750" height="376" />
+                    </navigator>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view class="dt-section">
+        <view class="m-detailBase">
+            <view class="info">
+                <view class="name">************************</view>
+                <view class="desc">************************</view>
+                <view class="price">￥***.00</view>
+                <!-- <view class="taglist">
+                    <view class="wrap"></view>
+                </view> -->
+            </view>
+            <view class="comment collet">
+                <view class="wrap">
+                    <i class="icon ion-ios-star-outline"></i>
+                    <view class="more">
+                        <text>收藏</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="dt-section-2">
+        <view class="m-listItem">
+            <view class="left">
+                <text class="txt">请选择规格数量</text>
+            </view>
+            <view class="middle"></view>
+            <view class="right">
+                <i class="icon ion-chevron-right"></i>
+            </view>
+        </view>
+        <view class="m-listItem m-li-noborder">
+            <view class="left">
+                <text class="txt">服务：</text>
+            </view>
+            <view class="middle">
+                <view class="m-serversEntry">
+                    <view class="mse-wrap">
+                        <view class="item">保价服务</view>
+                        <view class="item">100%正品保障</view>
+                    </view>
+                    <view class="mse-wrap">
+                        <view class="item">59元包邮</view>
+                        <view class="item">七天无理由退换</view>
+                    </view>
+                </view>
+            </view>
+            <view class="right">
+                <i class="icon ion-chevron-right"></i>
+            </view>
+        </view>
+    </view>
+
+    <view class="dt-section-2 dt-section-3 dt-comment">
+        <view class="m-listItem">
+            <view class="left">
+                <text class="txt">用户评价(999)</text>
+            </view>
+            <view class="middle"></view>
+            <view class="right">
+                <i class="icon ion-chevron-right"></i>
+            </view>
+        </view>
+        <view class="comment-item">
+            <view class="comment-hd">
+                <view class="link">
+                    <image class="avatar" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%BB%98%E8%AE%A4%E5%A4%B4%E5%83%8F.png" alt=""></image>
+                    <text class="name">匿名***</text>
+                </view>
+            </view>
+            <view class="extraInfo">
+                <text class="time">****年0**月**日 **:**:**</text>
+                <text class="skus">男,铁灰43</text>
+            </view>
+            <view class="content">
+                <p class="txt">***************************************************************</p>
+            </view>
+            <view class="commentPics">
+                <ul class="list"></ul>
+            </view>
+        </view>
+    </view>
+
+    <view class="dt-section-2 de-content">
+        <view class="deitalInfos">
+            <view class="m-attrCon">
+                <view class="attrList">
+                    <view class="tt">商品参数</view>
+                    <view class="item">
+                        <view class="left">货号</view>
+                        <view class="right">
+                            <view class="con">123456789</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E9%B1%BC.jpg" alt="" mode="widthFix"></image>
+        </view>
+        <view class="m-commonIssues m-rmcdGoods">
+            <view class="tt">
+                <view class="line"></view>
+                <span class="text">大家都在看</span>
+            </view>
+            <view class=""></view>
+        </view>
+    </view>
+
+    <view class="m-btnGroup">
+        <view class="inner">
+            <view class="btn btn1">
+                <i class="icon icon-kefu ion-ios-chatbubble-outline"></i>
+            </view>
+            <view class="btn btn2">立即购买</view>
+            <view class="btn btn3">加入购物车</view>
+        </view>
+    </view>
+</view>

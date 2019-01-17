@@ -13,7 +13,7 @@
         "pages/category/category_xiangbao/category_xiangbao",
         "pages/category/category_jiaju/category_jiaju",
         "pages/category/category_huwai/category_huwai",
-        
+        "pages/category/productDetail/productDetail",
         "pages/basket/basket",
         "pages/product/productList/productList",
         "pages/product/productDetail/productDetail",
@@ -33,6 +33,7 @@
         "pages/center/center",
         "pages/portal/help/help",
         "pages/portal/helpList/helpList",
+        "pages/portal/process/process",
         "pages/member/ticketList/ticketList",
         "pages/member/productComment/productComment",
         "pages/member/apply/apply"
