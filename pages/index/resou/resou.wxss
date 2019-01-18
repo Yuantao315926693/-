@@ -1,0 +1,6 @@
+/* pages/index/resou/resou.wxss */
+.cate-tit
+{
+  font-weight:bold;
+  font-size:large;
+}
