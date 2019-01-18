@@ -22,7 +22,8 @@
                     <view class="wrap"></view>
                 </view> -->
             </view>
-            <view class="comment collet">
+             
+            <view  wx:if="{{collect_able==false}}"class="comment collet"bindtap="collect_clicked">
                 <view class="wrap">
                     <i class="icon ion-ios-star-outline"></i>
                     <view class="more">
@@ -30,6 +31,16 @@
                     </view>
                 </view>
             </view>
+             <view  wx:elif="{{collect_able==true}}"class="comment collet"bindtap="collect_clicked">
+                <view class="wrap">
+                   <i class="icon ion-star"></i>	
+                  
+                    <view class="more">
+                        <text>已收藏</text>
+                    </view>
+                </view>
+            </view>
+
         </view>
     </view>
 

@@ -16,7 +16,11 @@ Page({
     autoplay: true,
     interval: 5000,
     duration: 500,
-    circular: true
+    circular: true,
+
+    collect_able:false
+    
+
   },
   /**
    * 生命周期函数--监听页面加载
@@ -72,5 +76,15 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  //点击收藏
+  collect_clicked:function(){
+    var bol = this.data.collect_able;
+
+    this.setData({
+
+      collect_able: !bol
+
+    })
   }
 })
