@@ -1,12 +1,4 @@
 /* pages/category/category.wxss */
-page { 
-  overflow:hidden; 
-  position:fixed; 
-  background-image:url('https://raw.githubusercontent.com/yt006/picture/master/timg.jpg'); 
-  margin: 0px; 
-  /*下面的是关键的设置100%显示*/ 
-  background-size: 100% 100%; 
-}
 .cate-tit
 {
   font-weight:bold;

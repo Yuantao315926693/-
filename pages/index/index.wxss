@@ -6,7 +6,7 @@
 .title view
 {
   color:darkgrey;
-  font-size:small;
+  font-size:smaller;
   white-space: nowrap; 
 }
 .title view text
@@ -24,15 +24,15 @@
   padding-bottom: 0rpx; 
   padding-left: 0rpx; 
   color:darkgrey;
-  font-size:small;
+  font-size:smaller;
   white-space: nowrap; 
 }
 .title-text view text
 {
-padding-right: 10rpx; 
-padding-top: 5rpx; 
-padding-bottom: 10rpx; 
-padding-left: 5rpx; 
+  padding-right: 10rpx; 
+  padding-top: 10rpx; 
+  padding-bottom: 10rpx; 
+  padding-left: 10rpx; 
   white-space: nowrap; 
   border-radius: 30rpx; 
   background-color:rgba(103, 202, 206, 0.37);
