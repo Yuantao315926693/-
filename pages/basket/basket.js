@@ -5,9 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    t_num: 2,
-    t_price: 0.00,
-    boolean: false,
+    t_num: 2,//数量
+    t_price: 0.00,//总价
+    p_all:false,//全选
+    boolean: false,//管理
     p_data:[
 
       {
@@ -54,6 +55,7 @@ Page({
    */
   onShow: function () {
     this.fin_Price()
+    this.p_checkall()
   },
 
   /**
@@ -120,6 +122,7 @@ p_clecked: function (e) {
 
   })
   this.fin_Price()
+  this.p_checkall()
   },
 
   //商品数量减
@@ -157,6 +160,7 @@ p_decnum:function(e)
 
     })
     this.fin_Price()
+    
   },
 
 //计算最终价格
@@ -165,9 +169,9 @@ p_decnum:function(e)
     var price = 0
     console.log(price)
     var p_data = this.data.p_data
-    console.log(p_data[0])
-    console.log(p_data[0].p_able)
-    console.log(p_data[1].p_able)
+    // console.log(p_data[0])
+    // console.log(p_data[0].p_able)
+    // console.log(p_data[1].p_able)
     for (var i = 0; i < num; i++)
     {
       if(p_data[i].p_able)
@@ -180,6 +184,64 @@ p_decnum:function(e)
 
     })
 
-}
+},
+//全选标志判断
+p_checkall:function(){
+  var num = this.data.t_num
+  var p_data = this.data.p_data
+  var p_all = true
+  for (var i = 0; i < num; i++) {
+    if (!p_data[i].p_able)
+      {p_all=false;break}
+     }
+     console.log(p_all)
+  this.setData({
 
+   p_all: p_all
+
+  })
+},
+//全选
+  p_tocheckall:function(){
+    var num = this.data.t_num
+    var p_data = this.data.p_data
+    var p_true = true
+    for (var i = 0; i < num; i++) {
+      if (!p_data[i].p_able)  {
+         var up = "p_data[" +i + "].p_able"; 
+
+        this.setData({
+          [up]: p_true
+        })
+       }
+    }
+    this.setData({
+
+      p_all:p_true
+
+    })  
+    this.fin_Price()
+
+  },
+//全不选
+p_tonotcheckall: function () {
+    var num = this.data.t_num
+    var p_data = this.data.p_data
+    var p_false = false
+    for (var i = 0; i < num; i++) {
+      if (p_data[i].p_able) {
+        var up = "p_data[" + i + "].p_able";
+
+        this.setData({
+          [up]: p_false
+        })
+      }
+    }
+    this.setData({
+
+      p_all: p_false
+
+    })  
+  this.fin_Price()
+    }
 })

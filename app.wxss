@@ -290,7 +290,7 @@ page {
     vertical-align: middle;
     width: 1.0699975rpx;
     height: 1.0699975rpx;
-    background-image: url(http://img02.camel.com.cn/image/scroll-to-top-icon.png);
+    background-image: url(https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E5%9B%9E%E9%A1%B6%E9%83%A8.png);
     background-size: 1.0699975rpx 1.0699975rpx;
     opacity: 0.9;
     z-index: 5;

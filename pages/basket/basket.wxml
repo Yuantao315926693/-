@@ -87,10 +87,13 @@
 
         <view class="m-cartFT">
             <view class="left">
-                <view class="checkAll">
-                    <i class="icon icon-ischecked-g ion-checkmark-circled"></i> <i class="icon ion-android-cart"></i>
-                    
-                    <text class="txt">全选(1)</text>
+                <view wx:if="{{p_all==true}}"class="checkAll"bindtap="p_tonotcheckall">
+                    <i class="icon icon-ischecked-g ion-checkmark-circled"></i> <i class="icon ion-android-cart"></i>                    
+                    <text class="txt">全选</text>
+                </view>
+                <view wx:elif="{{p_all==false}}"class="checkAll"bindtap="p_tocheckall">
+                    <i class="icon icon-unchecked-g ion-checkmark-circled"></i> <i class="icon ion-android-cart"></i>                    
+                    <text class="txt">全选</text>
                 </view>
 
                 <view wx:if="{{boolean==false}}"class="price">{{t_price}}
