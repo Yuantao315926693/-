@@ -1,0 +1,421 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="m-indexHd" style="height: 162rpx;">
+        <view class="m-hd g-row">
+            <view class="m-indextop">
+                <view class="top-line">
+                    <view class="logo"></view>
+                    <view class="m-searchTop">
+                        <navigator url="../search/search" hover-class="changestyle">
+                            <view class="zw-search-link">
+                                <view class="icon-search"></view>
+                                <text class="placeholder">点击输入搜索商品</text>
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+            <view class="inner">
+                <view class="m-navs disflex">
+                    <view class="active">
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">推荐</text></navigator>
+                    </view>
+                    <view>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">女装</text></navigator>
+                    </view>
+                    <view>
+                        <navigator url="../product/productList/productList" hover-class="navigator-hover"><text class="txt">男装</text></navigator>
+                    </view>
+                    <view>
+                        <text class="txt">美妆</text>
+                    </view>
+                    <view>
+                        <text class="txt">母婴</text>
+                    </view>
+                    <view>
+                        <text class="txt">内衣</text>
+                    </view>
+                    <view>
+                        <text class="txt">食品</text>
+                    </view>
+                    <view>
+                        <text class="txt">箱包</text>
+                    </view>
+                    <view>
+                        <text class="txt">家居</text>
+                    </view>
+                    <view>
+                        <text class="txt">户外</text>
+                    </view>
+                    <!-- <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
+                    </view>
+                    <view>
+                        <text class="txt">瑜伽</text>
+                    </view>
+                    <view>
+                        <text class="txt">男鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">女鞋</text>
+                    </view>
+                    <view>
+                        <text class="txt">童装</text>
+                    </view>
+                    <view>
+                        <text class="txt">男装</text>
+                    </view> -->
+                </view>
+            </view>
+        </view>
+    </view>
+<!-- 切换框 -->
+    <view class="zw-banner">
+        <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" circular="{{circular}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                    <navigator url="../product/productDetail/productDetail" hover-class="changestyle"><image src="{{item}}" class="slide-image" width="750" height="376" /></navigator>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:260rpx; height:33rpx;" 
+           src='' alt=""></image>
+        </view>
+        <!-- 首页优惠小标题  -->
+        <view class="zw-pro1">
+            <view class="zw-pro1-link">
+                <image style="width:375rpx; height:529rpx;" src="http://img.hb.aicdn.com/a5412e11368b797ee9dd904c4810581b8e9ca7cb7c67-478Wta_fw658" alt=""></image>
+                <!-- 首页图片1 -->
+            </view>
+            <view class="zw-pro1-link">
+                <image style="width:375rpx; height:529rpx;" src="http://img.hb.aicdn.com/7aa5132290cc5aeada27069a85b9d29238416f757054-cN01RW_fw658" alt=""></image>
+                <!-- 2 -->
+            </view>
+        </view>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-pro2">
+            <view class="zw-countdown">
+                <text>距离结束</text>
+                <text class="count">45</text>
+                <text>:</text>
+                <text class="count">36</text>
+                <text>:</text>
+                <text class="count">36</text>
+            </view>
+        </view>
+        <view class="zw-pro3">
+            <view>
+                <image style="width:750rpx; height:389rpx;" class="zw-pro3-top" src="http://img.hb.aicdn.com/2217825108bf90d045af7a1d380c33d3dee04ab427f2-poHYbU_fw658" 
+                alt=""></image>
+                <!-- 横板 -->
+            </view>
+            <view class="zw-pro3-left">
+                <view>
+                    <image style="width:372rpx; height:591rpx;" src="http://img.hb.aicdn.com/1e41098e233be62dc603852fb870752297c005071a50c-GJNwhi_fw658" alt=""></image>
+                    <!-- 首页竖版衣服3 -->
+                </view>
+            </view>
+            <view class="zw-pro3-right">
+                <view>
+                    <image style="width:372rpx; height:293rpx;" src="http://img.hb.aicdn.com/df6d2e7476dd7ff805a09c7013dba8379000b772ba1d4-IKsxZJ_fw658" alt=""></image>
+                    <!-- 横版1上 -->
+                </view>
+                <view>
+                    <image style="width:372rpx; height:293rpx;" src="http://img.hb.aicdn.com/eb9feb3689d688c61bf0f015880e3f6fd2a1c3c974d26-yevjq3_fw658" alt=""></image>
+                    <!-- 横版1下 -->
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:149rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title2.png" alt=""></image>
+            <!-- 首页推荐文字2 -->
+        </view>
+        <view class="zw-banner">
+            <image style="width:750rpx; height:400rpx;" src="http://img.hb.aicdn.com/dd506b5483bfaedc6728c516ab29f810962bd99ca783-N6II5q_fw658" alt=""></image>
+            <!-- 模块2横1 -->
+        </view>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title3.png" alt=""></image>
+            <!-- 首页推荐文字3 -->
+            <text class="more">更多></text>
+        </view>
+        <view class="zw-banner">
+            <image style="width:750rpx; height:376rpx;" src="http://img.hb.aicdn.com/5807c20211d49d1c0857c1f915bdd13dad8d0524102ca-eRHuBK_fw658" alt=""></image>
+            <!-- 模块3横版1 -->
+        </view>
+
+        <view class="zw-proul">
+            <view class="zw-proli">
+                <image src="http://img.hb.aicdn.com/c4a3c25c51672b18225bf1ce30e0284321d1583c1088a-xyRyz3_fw658" alt=""></image>
+                <!-- 模块3竖版1 -->
+                <view class="zw-proli-tips">***********</view>
+                <view class="zw-proli-info">
+                    <view>*********</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 158 -->￥
+                        <!-- /react-text -->
+                        <text class="price">***.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli">
+                <image src="http://img.hb.aicdn.com/f4a5e34a81bb3ee7b49ba1f39e3b50f42b0d571f5ea0-Sy704D_fw658" alt=""></image>
+                <!-- 模块三竖版2 -->
+                <view class="zw-proli-tips">*************</view>
+                <view class="zw-proli-info">
+                    <view>********</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">***.00</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title4.png" alt=""></image>
+            <!-- 首页推荐文字4 -->
+            <text class="more">更多></text>
+        </view>
+
+        <view class="zw-banner">
+            <image style="width:750rpx; height:376rpx;" src="http://img.hb.aicdn.com/cb55040c3c1bc20fe71160819639b069138b9d60b8a7-42C4yD_fw658" alt=""></image>
+        </view>
+
+        <view class="zw-proul2">
+            <view class="zw-proli2">
+                <image src="http://img.hb.aicdn.com/bb92cb2d95d47f05d65966ff10b51717dd2f528d2d126-S4QlXS_fw658" alt=""></image>
+                <view class="zw-proli-tips">**********</view>
+                <view class="zw-proli-info">
+                    <view>***********</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 158 -->￥
+                        <!-- /react-text -->
+                        <text class="price">***.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli2">
+                <image src="http://img.hb.aicdn.com/aff1a2adb82b4acaf84f198adfd8d5a1a277886834e41-PdD361_fw658" alt=""></image>
+                <view class="zw-proli-tips">************</view>
+                <view class="zw-proli-info">
+                    <view>***********</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">****.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli2">
+                <image src="http://img.hb.aicdn.com/36a228843b374808ac38dfe543642e8b52af54a94d78a-qZl6Rp_fw658" alt=""></image>
+                <view class="zw-proli-tips">*********</view>
+                <view class="zw-proli-info">
+                    <view>*******</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">***.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli2">
+                <image src="http://img.hb.aicdn.com/eb044199e13ba0ffa176c8f0f960db81882ac13880c3-9qxgKx_fw658" alt=""></image>
+                <view class="zw-proli-tips">********</view>
+                <view class="zw-proli-info">
+                    <view>********</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">***.00</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title5.png" alt=""></image>
+            <!-- 首页推荐文字5 -->
+            <text class="more">更多></text>
+        </view>
+        <view class="zw-banner">
+            <image style="width:750rpx; height:376rpx;" src="http://img.hb.aicdn.com/b74d3f87bcdf5d859bfbfcd494616a419dbfc8193bf7-67ogHN_fw658" alt=""></image>
+        </view>
+
+        <view class="zw-proul">
+            <view class="zw-proli">
+                <image src="http://img.hb.aicdn.com/0e009ffe53181955f0e7ea9b7e181bb998279bd65bf5-cji6Ci_fw658" alt=""></image>
+                <view class="zw-proli-tips">***********</view>
+                <view class="zw-proli-info">
+                    <view>***********</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 158 -->￥
+                        <!-- /react-text -->
+                        <text class="price">***.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli">
+                <image src="http://img.hb.aicdn.com/cc1d91e28a81ea34ebf7093055d017b2d828cfcf3b0d-qgeZFC_fw658" alt=""></image>
+                <view class="zw-proli-tips">***********</view>
+                <view class="zw-proli-info">
+                    <view>***********</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">****.00</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:262rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title6.png" alt=""></image>
+            <!-- 首页推荐6 -->
+            <text class="more">更多></text>
+        </view>
+        <view class="zw-banner">
+            <image style="width:750rpx; height:405rpx;" src="http://img.hb.aicdn.com/edb48b7ef26812b6ad541acea5feb9dd2b4d26226255-xvVFSA_fw658" alt=""></image>
+        </view>
+
+        <view class="zw-proshow">
+            <view class="zw-proshow-li">
+                <image class="zw-proshow-li-img" src="http://img.hb.aicdn.com/a643a92af16c1c2f3dd83555b49b0b9b557015d715bfb-j6Cgdl_fw658" alt=""></image>
+                <view class="zw-pli-info">
+                    <view class="pli-info-wrap">
+                        <view>
+                            <text class="h2">********</text>
+                        </view>
+                        <view>
+                            <text class="p1">******</text>
+                        </view>
+                        <view class="h1">
+                            <!-- react-text: 228 -->￥
+                            <!-- /react-text -->
+                            <text>***.00</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proshow-li">
+                <image class="zw-proshow-li-img" src="http://img.hb.aicdn.com/612c780ae13a39d087f8029f8ab9363da0ea21f21b9c8-sgutZN_fw658" alt=""></image>
+                <view class="zw-pli-info">
+                    <view class="pli-info-wrap">
+                        <view>
+                            <text class="h2">*********</text>
+                        </view>
+                        <view>
+                            <text class="p1">*********</text>
+                        </view>
+                        <view class="h1">
+                            <!-- react-text: 236 -->￥
+                            <!-- /react-text -->
+                            <text>*********.00</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proshow-li">
+                <image class="zw-proshow-li-img" src="http://img.hb.aicdn.com/3a55de00ec4ba5a18046e50265fdd0ded6ab939921a672-OKuqi8_fw658" alt=""></image>
+                <view class="zw-pli-info">
+                    <view class="pli-info-wrap">
+                        <view>
+                            <text class="h2">*********</text>
+                        </view>
+                        <view>
+                            <text class="p1">*********</text>
+                        </view>
+                        <view class="h1">
+                            <!-- react-text: 244 -->￥
+                            <!-- /react-text -->
+                            <text>*********.00</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proshow-li">
+                <image class="zw-proshow-li-img" src="http://img.hb.aicdn.com/f411cf70afe74b7bd9291b688ff7a5323ab22e969782-8VVW8K_fw658" alt=""></image>
+                <view class="zw-pli-info">
+                    <view class="pli-info-wrap">
+                        <view>
+                            <text class="h2"></text>
+                        </view>
+                        <view>
+                            <text class="p1">*********</text>
+                        </view>
+                        <view class="h1">
+                            <!-- react-text: 252 -->￥
+                            <!-- /react-text -->
+                            <text>*********</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+    <view class="layort-h">
+        <view class="zw-title">
+            <image style="width:298rpx; height:34rpx;" src="http://img02.camel.com.cn/image/zw_title7.png" alt=""></image>
+            <text class="more">更多></text>
+        </view>
+        <view class="zw-banner">
+            <image style="width:750rpx; height:376rpx;" src="http://img.hb.aicdn.com/b498f597b8bc288cc6b1ddbff34ebe07b66955d68eee-Ejnd0h_fw658" alt=""></image>
+        </view>
+
+        <view class="zw-proul">
+            <view class="zw-proli">
+                <image src="http://img.hb.aicdn.com/2c67651950d2f3afe99112c83f4ccfdaf9046eca475fd-uv8r5g_fw658" alt=""></image>
+                <view class="zw-proli-tips">***********</view>
+                <view class="zw-proli-info">
+                    <view>*******</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 158 -->￥
+                        <!-- /react-text -->
+                        <text class="price">***.00</text>
+                    </view>
+                </view>
+            </view>
+            <view class="zw-proli">
+                <image src="http://img.hb.aicdn.com/1304e758c039a40b90e3631ef6288df037a8bc5d9b1fb-HV7Gdd_fw658" alt=""></image>
+                <view class="zw-proli-tips">**********</view>
+                <view class="zw-proli-info">
+                    <view>*********</view>
+                    <view class="price-wrap">
+                        <!-- react-text: 166 -->￥
+                        <!-- /react-text -->
+                        <text class="price">***.00</text>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+
+</view>
