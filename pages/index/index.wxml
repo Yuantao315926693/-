@@ -59,7 +59,7 @@
 
     <view class="zw-banner">
         <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" circular="{{circular}}" indicator-active-color="{{indicatorActiveColor}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-            <block wx:for="{{imgUrls}}">
+            <block wx:for="{{imgUrls}}"wx:key="*this">
                 <swiper-item>
                     <navigator url="../product/productDetail/productDetail" hover-class="changestyle">
                     <image src="{{item}}" class="slide-image" width="750" height="376" />
