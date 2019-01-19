@@ -1,17 +1,47 @@
 <!--pages/portal/help/help.wxml-->
 <view class="container greybg">
     <view class="helpCon g-row">
-        <view class="wraper">
-            <view class="question">正品保证</view>
-            <view class="answer">交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证。</view>
+        <view class="wraper" style="display:flex; flex-direction:raw;">
+            <text class="title">购物保障</text>
         </view>
+        <view class="divLine1"></view>
         <view class="wraper">
-            <view class="question">免费拒收</view>
-            <view class="answer">如果您对收到的商品不满意或鞋码不合适，您可以直接将商品拒收，并无需承担任何费用。</view>
-        </view>
-        <view class="wraper">
-            <view class="question">“三包”保障</view>
-            <view class="answer">a．交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证。b．交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证。c．交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证交大锦鲤，品质保证。</view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:200rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/baozhang1.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">01.正品保障</text>
+                    <text class="title-branch2">\n·锦鲤与诸多一线品牌达成深度合作关系，商品均经过精挑细选，承诺100%正品；\n·给予用户的不仅是优质商品，更是品质生活。 </text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:200rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/baozhang2.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">02.低价优选</text>
+                    <text class="title-branch2">\n·锦鲤与诸多一线品牌达成深度合作关系，在保证品质的前提下，打造出一套品质低价的策略；\n·真真做到位消费者节约每一分钱。</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:200rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/baozhang3.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">03.速达服务</text>
+                    <text class="title-branch2">\n·锦鲤物流覆盖全国600多个城市，接近45000个乡镇区域，拥有428个仓储，数万经验丰富的物流配送员；\n·全国180多个城市实现当日达，400多个城市实现半日送达，900多个城市实现次日达；\n·确保左到快速配送。</text>
+                </view>
+            </view>
+            <view class="process" style="display:flex; flex-direction:raw;">
+                <view class="floor-left">
+                    <image style="width:200rpx; height:200rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/baozhang4.png" alt=""></image>
+                </view>
+                <view class="floor-right">
+                    <text class="title-branch1">04.售后无忧</text>
+                    <text class="title-branch2">\n·锦鲤拥有完善的退换货流程、放心的回收和延保服务；\n·可提供高效的上门安装、低价的专业维修、方便快捷的远程协助等服务；\n·让您买的放心，用的舒心。</text>
+                </view>
+            </view>
         </view>
     </view>
 </view>

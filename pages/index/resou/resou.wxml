@@ -1,0 +1,74 @@
+<!--pages/index/resou/resou.wxml-->
+<view class="container">
+    <view class="m-indexHd" style="height: 162rpx;">
+        <view class="m-hd g-row">
+            <view class="m-indextop">
+                <view class="top-line">
+                    <view class="logo"></view>
+                    <view class="m-searchTop">
+                        <navigator url="../search/search" hover-class="changestyle">
+                            <view class="zw-search-link">
+                                <view class="icon-search"></view>
+                                <text class="placeholder">点击输入搜索商品</text>
+                            </view>
+                        </navigator>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+
+    <view class="m-list-floor g-row">
+        <view class="cate-tit">
+            <text class="txt">XXXXXX</text>
+        </view>
+        <view class="m-goods-grid">
+            <view class="list">
+                <view class="item">
+                    <view class="wraper">
+                        <view class="hd">
+                          <navigator url="../productDetail/productDetail" hover-class="changestyle">
+                            <image class="pic" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E9%B1%BC.jpg" alt=""></image>
+                            <view class="specification">
+                                <view class="count">*</view>
+                                <!-- react-text: 4122 -->***
+                                <!-- /react-text -->
+                            </view>
+                          </navigator>
+                        </view>
+                        <view class="desc">*************</view>
+                        <view class="name">**********</view>
+                        <view class="price">
+                            <!-- react-text: 4126 -->￥
+                            <!-- /react-text -->
+                            <!-- react-text: 4127 -->***.00
+                            <!-- /react-text -->
+                        </view>
+                    </view>
+                </view>
+                <view class="item">
+                    <view class="wraper">
+                        <view class="hd">
+                          <navigator url="../productDetail/productDetail" hover-class="changestyle">
+                            <image class="pic" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image>
+                            <view class="specification">
+                                <view class="count">*</view>
+                                <!-- react-text: 4135 -->***
+                                <!-- /react-text -->
+                            </view>
+                          </navigator>
+                        </view>
+                        <view class="desc">********</view>
+                        <view class="name">********</view>
+                        <view class="price">
+                            <!-- react-text: 4126 -->￥
+                            <!-- /react-text -->
+                            <!-- react-text: 4127 -->***.00
+                            <!-- /react-text -->
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

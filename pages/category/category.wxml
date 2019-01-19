@@ -1,6 +1,5 @@
 <!--pages/category/category.wxml-->
 <view class="container whitebg">
-
     <view class="m-indexHd" style="height: 102rpx;">
       <view class="m-hd g-row">
           <view class="m-indextop">
@@ -18,7 +17,8 @@
            </view>
        </view>
      </view>
-
+     
+     <view class='whole'></view>
     <view class="cate-tit">
         <text class="txt">分类</text>
     </view>
@@ -27,7 +27,7 @@
         <view class="cate-list-left">
           <view>
             <navigator url="../category/category_nvzhuang/category_nvzhuang" hover-class="navigator-hover">
-              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/nvzhunag.jpg" alt=""></image> 
               <text>女装</text>
             </navigator>
             </view>
@@ -35,7 +35,7 @@
         <view class="cate-list-centr">
           <view>
             <navigator url="../category/category_nanzhuang/category_nanzhuang" hover-class="navigator-hover">
-              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/nanzhuang.jpg" alt=""></image> 
               <text>男装</text>
             </navigator>
            </view>
@@ -43,7 +43,7 @@
         <view class="cate-list-right">
           <view>
             <navigator url="../category/category_meizhuang/category_meizhuang" hover-class="navigator-hover">
-              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/meizhuang.png" alt=""></image> 
               <text>美妆</text>
             </navigator>
             </view>
@@ -53,7 +53,7 @@
         <view class="cate-list-left">
           <view>
             <navigator url="../category/category_muying/category_muying" hover-class="navigator-hover">
-              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/muying.jpg" alt=""></image> 
               <text>母婴</text>
             </navigator>
             </view>
@@ -61,7 +61,7 @@
         <view class="cate-list-centr">
           <view>
             <navigator url="../category/category_neiyi/category_neiyi" hover-class="navigator-hover">
-              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/neiyi.jpg" alt=""></image> 
               <text>内衣</text>
             </navigator>
            </view>
@@ -69,7 +69,7 @@
         <view class="cate-list-right">
           <view>
             <navigator url="../category/category_shipin/category_shipin" hover-class="navigator-hover">
-              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/shipin.jpg" alt=""></image> 
               <text>食品</text>
             </navigator>
             </view>
@@ -79,7 +79,7 @@
         <view class="cate-list-left">
           <view>
             <navigator url="../category/category_xiangbao/category_xiangbao" hover-class="navigator-hover">
-              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:248rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/xiangbao.jpg" alt=""></image> 
               <text>箱包</text>
             </navigator>
             </view>
@@ -87,7 +87,7 @@
         <view class="cate-list-centr">
           <view>
             <navigator url="../category/category_jiaju/category_jiaju" hover-class="navigator-hover">
-              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/jiaju.jpg" alt=""></image> 
               <text>家居</text>
             </navigator>
            </view>
@@ -95,7 +95,7 @@
         <view class="cate-list-right">
           <view>
             <navigator url="../category/category_huwai/category_huwai" hover-class="navigator-hover">
-              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image> 
+              <image style="width:250rpx; height:220rpx;" src="https://raw.githubusercontent.com/yt006/picture/master/huwai.jpg" alt=""></image> 
               <text>户外</text>
             </navigator>
             </view>
