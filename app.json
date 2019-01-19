@@ -15,7 +15,6 @@
         "pages/category/category_jiaju/category_jiaju",
         "pages/category/category_huwai/category_huwai",
         "pages/category/productDetail/productDetail",
-        "pages/basket/basket",
         "pages/product/productList/productList",
         "pages/product/productDetail/productDetail",
         "pages/order/orderConfirm/orderConfirm",
@@ -37,7 +36,8 @@
         "pages/portal/process/process",
         "pages/member/ticketList/ticketList",
         "pages/member/productComment/productComment",
-        "pages/member/apply/apply"
+        "pages/member/apply/apply",
+        "pages/basket/basket"
     ],
     "window": {
         "backgroundTextStyle": "light",
