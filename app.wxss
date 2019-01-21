@@ -1194,7 +1194,7 @@ m-indexHd .inner {
 }
 
 .m-ucenter {
-    /* padding-bottom: 130rpx; */
+    padding-bottom: 130rpx;
 }
 
 .m-uc-top {

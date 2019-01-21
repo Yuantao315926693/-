@@ -1,4 +1,5 @@
 // pages/basket/basket.js
+
 Page({
 
   /**
@@ -56,6 +57,7 @@ Page({
   onShow: function () {
     this.fin_Price()
     this.p_checkall()
+    this.queryData()
   },
 
   /**
@@ -243,5 +245,16 @@ p_tonotcheckall: function () {
 
     })  
   this.fin_Price()
-    }
+    },
+    //云端数据库
+  queryData: function () {
+      const db = wx.cloud.database();
+      const cont = db.collection('product');
+      cont.doc("test1").get({
+        success: function (res) {
+          console.log(res.data)
+        }
+      })
+
+  },
 })

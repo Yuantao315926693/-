@@ -1,12 +1,24 @@
 //index.js
 //获取应用实例
 const app = getApp()
+// 初始化云
+wx.cloud.init({
+  env: 'jmcpnz-12b781',
+  traceUser: true
+});
 
 Page({
   data: {
     imgUrls: [
           // 切换
-'https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E6%A8%AA%E7%89%881.jpg', 'https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E6%A8%AA%E7%89%882.jpg','https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E6%A8%AA%E7%89%883.jpg'
+{
+  im:'https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E6%A8%AA%E7%89%881.jpg',
+im_id: 1
+},{im:'https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E6%A8%AA%E7%89%882.jpg',
+im_id:2
+},{im:'https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E6%A8%AA%E7%89%883.jpg',
+im_id:3
+}
         ],
         indicatorDots: true,  
         indicatorColor: '#fff',

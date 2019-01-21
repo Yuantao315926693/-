@@ -15,12 +15,10 @@
     <view class="dt-section">
         <view class="m-detailBase">
             <view class="info">
-                <view class="name">************************</view>
-                <view class="desc">************************</view>
-                <view class="price">￥***.00</view>
-                <!-- <view class="taglist">
-                    <view class="wrap"></view>
-                </view> -->
+                <view class="name">{{p_info}}</view>
+                <view class="desc">{{p_size}}</view>
+                <view class="price">{{price}}</view>
+              
             </view>
 
 
