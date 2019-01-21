@@ -135,8 +135,13 @@
             <view class="btn btn1">
                 <i class="icon icon-kefu ion-ios-chatbubble-outline"></i>
             </view>
-            <view class="btn btn2">立即购买</view>
-            <view class="btn btn3">加入购物车</view>
+          
+            <view class="btn btn2"bindtap='tobuy'>立即购买</view>
+          
+            <view class="btn btn3"bindtap='dbjiagou'>{{jiagou}}</view>
+            
         </view>
     </view>
 </view>
+
+

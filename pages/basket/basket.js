@@ -247,14 +247,27 @@ p_tonotcheckall: function () {
   this.fin_Price()
     },
     //云端数据库
-  queryData: function () {
-      const db = wx.cloud.database();
-      const cont = db.collection('product');
-      cont.doc("test1").get({
-        success: function (res) {
-          console.log(res.data)
-        }
-      })
 
+  //云端数据库获取数据
+  queryData: function () {
+    var mine = this
+    var id_num = "tobuy" + mine.data.id
+    const db = wx.cloud.database();
+    const cont = db.collection('count');
+    console.log(id_num)
+    cont.doc(id_num).get({
+      success: function (res) {
+        console.log(res.data)
+        var info = "p_data[" + i + "].p_info";
+        var pri = "p_data[" + i + "].price";
+        var size = "p_data[" + i + "].p_size";
+
+        mine.setData({
+          [pri]: res.data.p_price,
+          [p_info]: res.data.p_info,
+          [p_size]: res.data.p_size
+        })
+      }
+    })
   },
 })

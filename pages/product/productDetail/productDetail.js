@@ -20,7 +20,7 @@ Page({
           p_size: "180(黑色)",
           price: 10.00,
           p_able: 0,
-          p_num: 1
+          jiagou:"加入购物车"
 
         
     },
@@ -52,7 +52,8 @@ Page({
 
     })
   },
-  //云端数据库
+
+  //云端数据库获取数据
   queryData: function () {
     var mine = this
     var id_num = "test" + mine.data.id
@@ -63,42 +64,79 @@ Page({
       success: function (res) {
         console.log(res.data)
         mine.setData({
-
           price: res.data.p_price,
           p_info: res.data.p_info,
           p_size:res.data.p_size
-
-        })
-        
-        
-      }
-      
+       }) 
+      } 
     })
-   
-
   },
   //点击购买
   
   //点击加购
-  // 单击“插入数据”按钮调用该函数
+dbjiagou:function(){
+  var p_able=!this.data.p_able
+  this.setData({
+    p_able: p_able,
+  })
+
+  var jiagou
+  if(p_able){
+      jiagou= "已经加入购物车"
+    this.insertData()
+      }
+  if(!p_able)
+   { 
+     jiagou = "加入购物车"
+    this.deleteData()
+   }
+  this.setData({
+    jiagou:jiagou
+  })
+ 
+},
+//删除数据调用此函数
+deleteData:function(){
+  var mine = this
+  const db = wx.cloud.database();
+  const cont = db.collection('count');
+  var id = mine.data.id
+
+  db.collection('count').doc("tobuy"+id).remove({
+    success(res) {
+      console.log(res.data)
+    }
+  })
+},
+
+  // 插入数据调用该函数
   insertData: function () {
-    const db = wx.cloud.database({});
+    var mine = this
+    const db = wx.cloud.database();
     const cont = db.collection('count');
-
+    var id=mine.data.id
+    var p_info=mine.data.p_info
+    var p_size=mine.data.p_size
+    var price=mine.data.price
     cont.add({
-
-      data: {
-        description: "向云数据库插入一条数据",
-        due: new Date('2018-12-25'),
-        tags: [
-          "cloud",
-          "database"
-        ],
+data:{
+       _id: "tobuy"+id, // 可选自定义 _id，在此处场景下用数据库自动分配的就可以了
+      due: new Date('2018-09-01'),
+      p_info:p_info,
+      p_price:price,
+      p_size:p_size,
       },
       success: function (res) {
         console.log(res._id)
       }
     });
   },
-
+//点击立即购买
+tobuy:function(){
+  wx.navigateTo({
+    url: "../../order/orderConfirm/orderConfirm" 
+  })
+  // hover - class="navigator-hover" >
+}
+  
 })

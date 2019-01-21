@@ -36,13 +36,12 @@
                             </view>
                           </navigator>
                         </view>
-                        <view class="desc">*************</view>
-                        <view class="name">**********</view>
+                        <view class="desc">{{p_info}}</view>
+                        <view class="name">{{p_size}}</view>
                         <view class="price">
-                            <!-- react-text: 4126 -->￥
-                            <!-- /react-text -->
-                            <!-- react-text: 4127 -->***.00
-                            <!-- /react-text -->
+                            ￥
+                            {{p_price}}
+                            
                         </view>
                     </view>
                 </view>

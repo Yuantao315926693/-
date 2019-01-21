@@ -1,11 +1,13 @@
 //index.js
 //获取应用实例
 const app = getApp()
+
 // 初始化云
 wx.cloud.init({
   env: 'jmcpnz-12b781',
   traceUser: true
-});
+})
+
 
 Page({
   data: {
