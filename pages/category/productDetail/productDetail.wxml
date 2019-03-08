@@ -15,9 +15,9 @@
     <view class="dt-section">
         <view class="m-detailBase">
             <view class="info">
-                <view class="name">************************</view>
-                <view class="desc">************************</view>
-                <view class="price">￥***.00</view>
+                <view class="name">这是测试1</view>
+                <view class="desc">测试1</view>
+                <view class="price">￥100.00</view>
                 <!-- <view class="taglist">
                     <view class="wrap"></view>
                 </view> -->

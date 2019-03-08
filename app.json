@@ -50,7 +50,8 @@
         "color": "#666",
         "selectedColor": "#0488b0",
         "backgroundColor": "#ffffff",
-        "borderStyle": "#d9d9d9",
+       
+        "borderStyle":"black",
         "list": [
             {
                 "selectedIconPath": "images/首页2.png",

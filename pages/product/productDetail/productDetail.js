@@ -16,7 +16,7 @@ Page({
          collect_able: false,
       
           id: 1,
-          p_info: "这是测试数据1",
+          p_info: "这是测试数据1（未连接）",
           p_size: "180(黑色)",
           price: 10.00,
           p_able: 0,
@@ -57,16 +57,19 @@ Page({
   queryData: function () {
     var mine = this
     var id_num = "test" + mine.data.id
+    var id_ima = mine.data.id - 1
     const db = wx.cloud.database();
     const cont = db.collection('product');
-    console.log(id_num)
+    var ima = "imgUrls[" + id_ima + "]";//先用一个变量，把(info[0].gMoney)用字符串拼接起来
     cont.doc(id_num).get({
       success: function (res) {
-        console.log(res.data)
+        console.log("productDetails id_num " + id_num+"   productDetails  云端product图片URL"+res.data.p_image)
         mine.setData({
           price: res.data.p_price,
           p_info: res.data.p_info,
-          p_size:res.data.p_size
+          p_size:res.data.p_size,
+          // [ima]:res.data.p_image
+          
        }) 
       } 
     })

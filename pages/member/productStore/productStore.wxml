@@ -14,10 +14,10 @@
                             <view class="cnt">
                                 <view class="vc">
                                     <view>
-                                        <text class="line1">**********</text>
+                                        <text class="line1">测试数据1</text>
                                     </view>
                                     <view>
-                                        <text class="line3">￥***.00</text>
+                                        <text class="line3">￥100.00</text>
                                     </view>
                                 </view>
                             </view>
@@ -34,16 +34,16 @@
                         <view class="m-good">
                             <view class="imgWrap">
                                 <view>
-                                    <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image>
+                                    <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E9%B1%BC.jpg" alt=""></image>
                                 </view>
                             </view>
                             <view class="cnt">
                                 <view class="vc">
                                      <view>
-                                        <text class="line1">*********</text>
+                                        <text class="line1">测试数据2</text>
                                     </view>
                                     <view>
-                                        <text class="line3">￥***.00</text>
+                                        <text class="line3">￥120.00</text>
                                     </view>
                                 </view>
                             </view>
@@ -60,16 +60,16 @@
                         <view class="m-good">
                             <view class="imgWrap">
                                 <view>
-                                    <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E9%A1%B6%E5%8C%85%E7%86%8A.jpg" alt=""></image>
+                                    <image src="https://raw.githubusercontent.com/imlosedog/imlosedog.github.io/master/%E5%A4%B4%E5%83%8F.jpg" alt=""></image>
                                 </view>
                             </view>
                             <view class="cnt">
                                 <view class="vc">
                                      <view>
-                                        <text class="line1">**********</text>
+                                        <text class="line1">测试数据3</text>
                                     </view>
                                     <view>
-                                        <text class="line3">￥***.00</text>
+                                        <text class="line3">￥150.00</text>
                                     </view>
                                 </view>
                             </view>

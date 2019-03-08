@@ -6,6 +6,7 @@
                 <swiper-item>
                     <navigator url="../product/productDetail/productDetail" hover-class="changestyle">
                         <image src="{{item}}" class="slide-image" width="750" height="376" />
+                       <!-- <image src="{{p_image}}" class="slide-image" width="750" height="376" />  -->
                     </navigator>
                 </swiper-item>
             </block>

@@ -6,9 +6,9 @@ Page({
    */
   data: {
     id: 1,
-    p_info: "这是测试数据1",
-    p_size: "180(黑色)",
-    price: 10.00,
+    p_info: "这是测试2",
+    p_size: "测试2",
+    price: 120.00,
     p_able: 0,
 
   },

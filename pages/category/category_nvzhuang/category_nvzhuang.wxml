@@ -40,7 +40,7 @@
                         <view class="name">{{p_size}}</view>
                         <view class="price">
                             ￥
-                            {{p_price}}
+                            {{price}}
                             
                         </view>
                     </view>
@@ -57,12 +57,12 @@
                             </view>
                           </navigator>
                         </view>
-                        <view class="desc">********</view>
-                        <view class="name">********</view>
+                        <view class="desc">这是测试1</view>
+                        <view class="name">测试1</view>
                         <view class="price">
                             <!-- react-text: 4126 -->￥
                             <!-- /react-text -->
-                            <!-- react-text: 4127 -->***.00
+                            <!-- react-text: 4127 -->100.00
                             <!-- /react-text -->
                         </view>
                     </view>

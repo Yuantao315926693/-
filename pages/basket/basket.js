@@ -14,7 +14,7 @@ Page({
 
       {
         id: 1,
-        p_info:"这是测试数据1",
+        p_info:"这是测试数据1(未连接)",
         p_size:"180(黑色)",
         price:10.00,
         p_able: 0,
@@ -23,16 +23,18 @@ Page({
       },
       {
         id: 2,
-        p_info: "这是测试数据2",
+        p_info: "这是测试数据2(未链接)",
         p_size: "170(白色)",
         price: 20.00,
         p_able:1,
         p_num:2
        
       }
-    ]
-    
-
+    ],
+    // 云端数据读取暂存变量.........................
+    price_tem_cloud :0,
+    info_tem_cloud:0,
+    size_tem_cloud:0
 
   },
 
@@ -55,9 +57,10 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    this.queryData()
     this.fin_Price()
     this.p_checkall()
-    this.queryData()
+    
   },
 
   /**
@@ -246,28 +249,51 @@ p_tonotcheckall: function () {
     })  
   this.fin_Price()
     },
-    //云端数据库
 
-  //云端数据库获取数据
+    //云端数据库。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。
+
+  //从云端数据库获取购物信息数据
   queryData: function () {
     var mine = this
-    var id_num = "tobuy" + mine.data.id
+    var id_num = "tobuy" + mine.data.p_data[0].id
+    var i=0;
+    var info = "p_data[" + i + "].p_info";
+    var pri = "p_data[" + i + "].price";
+    var size = "p_data[" + i + "].p_size";
+    console.log("修改price的标识"+pri)
+    console.log("basket id_num:" + id_num)//输出_id
     const db = wx.cloud.database();
     const cont = db.collection('count');
-    console.log(id_num)
+    // ........................... 
+    var pri_t = mine.data.price_tem_cloud 
+    var info_t = mine.data.info_tem_cloud 
+    var size_t = mine.data.size_tem_cloud 
+
     cont.doc(id_num).get({
       success: function (res) {
-        console.log(res.data)
-        var info = "p_data[" + i + "].p_info";
-        var pri = "p_data[" + i + "].price";
-        var size = "p_data[" + i + "].p_size";
+        console.log("basket云端读取资源：" + res.data.p_info)
+        // mine.setData({
+        //   [pri]: res.data.p_price,
+        //   [info]: res.data.p_info,
+        //   [size]: res.data.p_size
+        // })
 
+        
+        pri_t= res.data.p_price,
+        info_t= res.data.p_info,
+        size_t= res.data.p_size
+        
+        console.log("云端读取资源进行暂存数据修改后：" + pri_t)
         mine.setData({
-          [pri]: res.data.p_price,
-          [p_info]: res.data.p_info,
-          [p_size]: res.data.p_size
+          [pri]: pri_t,
+          [info]: info_t,
+          [size]: size_t
         })
-      }
+      },
+      fail: function () { console.log("basket云端读取资源fail:")}
     })
+
+   
+    console.log("云端读取资源进行数组数据修改后：" + mine.data.p_data[0].p_info) 
   },
 })
